@@ -40,6 +40,7 @@ def merge_sort(arr):
             arr[k] = righthalf[j]
             j+=1
             k+=1
+        print('Merging: ',arr)
     return arr
 
 arr = [5,3,4,4,0,1,3,2,7,5,6] 
