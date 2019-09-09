@@ -20,3 +20,5 @@ def dfs(graph,start):
     return visited
 
 dfs(graph,'A')
+
+set(['B', 'C']) - set('B')
